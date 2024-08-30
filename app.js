@@ -19,5 +19,7 @@ app.put('/user/:id', UserHandler.userUpdate)
 
 app.post('/user', UserHandler.createUser)
 
+app.post('/signin', UserHandler.signIn)
+
 module.exports = app
 
